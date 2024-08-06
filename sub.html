@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>아임닭</title>
+
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/sub.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+    <header>
+
+
+      <style>
+
+        * {box-sizing:border-box; margin:0; font-family:"맑은 고딕";}
+  
+        ul, ol, li {list-style:none; margin:0; padding:0;}
+  
+        
+  
+        header {width:1100px; height:200px; margin:0 auto; background-color:gold;}
+  
+  
+  
+  
+  
+        #sub {width:1100px; height:900px; margin:0 auto; background-color:cyan; padding:30px;}
+  
+        #submenu ul {font-size:17px; font-weight:bold;}
+  
+        #submenu ul li {float:left; margin: 16px 0 0 30px;}
+  
+        #submenu li a {text-decoration:none; color:#000;}
+  
+        #submenu li a:hover {color:#666;}
+
+        #sub > #contents > #product > img {width:100%; height:100%;}
+  
+        
+  
+  
+  
+        #contents {width:100%; height:800px; background-color:purple; position:relative; font-size:19px;}
+  
+  
+  
+        #contents h3 {margin:0 0 0 30px;}
+  
+  
+  
+        #product {width:500px; height:500px; background-color:gold; position:absolute; top:70px; left:30px; font-size:19px;}
+  
+        #context {width:450px; height:500px; background-color:red; position:absolute; top:70px; right:30px; font-size:15px;}
+  
+        
+  
+        
+  
+        
+  
+        table{width:100%; border-top:3px solid #e9e9e9;  border-bottom:1px solid #e9e9e9;  }
+  
+  
+  
+        td {padding:6px 15px;}
+  
+  
+  
+        td:first-child {width:100px; }
+  
+  
+  
+  
+          
+          
+          
+        button {margin:3px; cursor:pointer;}
+          
+  
+  
+        button:first-child {background-color:white; width:180px; height: 45px; border-radius:3px; padding:10px 20px; color:#fff; border:none;}
+  
+  
+  
+        button:nth-child(2) {background-color:#ef4139; width:180px; height: 45px; border-radius:3px; padding:10px 20px; color:#fff; border:none; }
+
+  
+        button:nth-child(3) {background-color:green; border-radius:3px; padding:10px 20px; color:#666; border:none; border:1px solid #ddd; }
+  
+  
+  
+        button:nth-child(4) {background-color:#fff; border-radius:3px; padding:10px 20px; color:#666; border:none; border:1px solid #ddd; }
+
+        #npay text{font-size: 11px;}
+
+
+        /*form*/
+  
+  
+  
+        select{width:280px; height:25px; float:left; margin:5px 0 0 0px; font-family:"돋움"; font-size:13px; color:#666; border:1px solid #eee; padding:0px 0 0 10px;} 
+  
+  
+  
+        footer {width:1100px; height:200px; margin:0 auto; background-color:tomato;}
+  
+        
+  
+        
+  
+      </style>
+  
+    </head>
+  
+    <body>
+  
+  
+  
+      <header>
+  
+      </header>
+  
+  
+  
+      <div id="sub">
+  
+  
+        <div id="contents">
+  
+          <div id="product"><img src="img/icon13.jpg" alt="닭가슴살 볶음밥"></div>
+  
+          <div id="context">
+  
+            <h5>[단 6일! 수능D-100 패키지] 닭가슴살 볶음밥 10+10</h5>
+            <tr>
+  
+              <td>판매가</td>
+              <br>
+              <td>31,900원</td>
+
+            </tr>
+  
+            
+  
+            <table>
+  
+  
+              <tr>
+  
+                <td>브랜드</td>
+  
+                <td>아임닭 </td>
+  
+              </tr>
+  
+  
+  
+              <tr>
+  
+                <td>원산지</td>
+  
+                <td>국내산</td>
+  
+              </tr>
+  
+  
+  
+              <tr>
+  
+                <td>배송구분</td>
+  
+                <td>업체배송</td>
+  
+              </tr>
+  
+  
+  
+              <tr>
+  
+                <td>배송비용</td>
+  
+                <td>최종 결제금액에 따라 부과</td>
+  
+              </tr>
+  
+  
+  
+              <tr>
+  
+                <td>선택</td>
+  
+                <td>
+  
+                  <select name="select" id="select" >
+  
+                    <option>[단 6일! 수능D-100 패키지] 닭가슴살 볶음밥 10+10</option>
+
+                  </select>
+  
+                </td>
+  
+              </tr>
+
+              <tr>
+  
+                <td>추가구성상품</td>
+  
+                <td>
+  
+                  <select name="select" id="select" >
+  
+                    <option>한입바삭 먹태구이 허니버터맛 1팩(유통기한 2025-04-02) +1,900원</option>
+  
+                    <option>한입바삭 먹태구이 불닭맛 1팩(유통기한 2025-04-02) +1,900원</option>
+  
+                    <option>현미크런치 옛날통닭 2팩 +8,900원(유통기한 2024-08-27)</option>
+  
+                  </select>
+  
+                </td>
+  
+              </tr>
+  
+  
+  
+              <tr>
+  
+                <td colspan="2">
+  
+                  <button>장바구니</button>
+  
+                  <button>구매하기</button>
+
+                  <br>
+
+                  <div class="npay text"></div>
+                    <span class="npay blind">네이버 아이디로 간편구매 <br> 네이버페이 </span>
+
+                </div>
+
+
+                  <button>NPay</button>
+  
+                  <button>찜</button>
+  
+                </td>
+  
+              </tr>
+  
+  
+            </table>
+
+  
+          </div>
+  
+  
+        </div>
+  
+  
+      </div>
+  
+
+
+    <footer>
+
+      <div id="box">
+        <a href="#"><img src="img/logo.png" alt="로고"></a>
+
+    
+            <ul>
+            <p>법인명(상호) : (주)와이즈유엑스글로벌 | 대표자 : 김승환 | 전화 : 1661-0352 | 개인정보관리책임자 : 김승환
+
+            <br>
+
+            사업자등록번호 : 220-86-57343 | 통신판매업신고 : 2021-서울강남-02769호 [사업자정보확인]
+
+            <br>
+
+            주소 : 서울특별시 강남구 강남대로 560 (논현동) 삼익전자빌딩 5층 와이즈유엑스글로벌
+
+            <br><br>
+
+            입점/제휴 문의 : imdak_mkt@wiseux.com
+
+            <br>
+
+            개인정보 처리방침
+            
+            <br>
+
+            입점/제휴 문의 : imdak_mkt@wiseux.com</p>
+
+            </ul>
+
+
+    </div>
+
+    </footer>
+  </body>
+</html>>
